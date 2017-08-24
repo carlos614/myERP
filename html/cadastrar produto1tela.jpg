@@ -1,0 +1,69 @@
+<html>
+	<head><body bgcolor="grey">
+	<style type="Text/css">
+	h1{
+	color:#ffffff;
+	backgrobackground-color:#fc9804;
+	}
+	
+	header#cabeçalho {
+	border-bottom:3px #000000 solid;
+	height:100px;
+	background: #486e9a
+	}
+	
+	footer#rodapé {
+	height:1;
+    border-bottom:3px solid;
+	background: #d7daa7
+	}
+	
+	.rodapé{text.align:conter; font size:16px; color:#000;
+	 height:10px;
+	 border-bottom:3px #000000 solid;
+	height:60px;
+	background: #486e9a}
+	
+	h2{color:#ffffff}
+	</style>
+		<title> Cadastro de Produtos </title>
+		<header id="cabeçalho" >
+			<h1><img src="lupa58.png" width=15 /> <input type="text" id="tipo" name="tipo" value="" />
+				<input type="submit" value="incluir" /></h1>
+		<hgroup>
+		<h2>Cadastrar Produto</h2>
+		
+		</hgroup>
+	</head>
+	
+				<br></br>
+				<!-- cadastro de produtos -->
+				<!-- action:chamada de código -->
+				<form action="#" method="post">	
+				<h3>Insira os dados abaixo</h3>
+				<tr>
+				
+					<td><strong>Produto</strong>:<input type="text" id="produto" name="produto" value="" size="20" maxlength="15" /><br><p></td>
+					<td><strong>Tipo</strong>:<input type="text" id="tipo" name="tipo" value="" size="20" maxlength="15" /><br><p></td>
+					<strong>Quantidade</strong>:<input type="quantidade" id="quantidade" name="quantidade" value="" size="20" maxlength="15" /><br><p>
+					<strong>Marca</strong>:<input type="marca" id="marca" name="marca" value="" size="20" maxlength="15" /><br><p>
+					<strong>Código fabricante</strong>:<input type="código fabricante" id="código fabricante" name="código fabricante" value="" size="20" maxlength="15" /><br><p>
+					<strong>Imposto</strong>:<input type="imposto" id="imposto" name="imposto" value="" size="20" maxlength="15" /><p>
+					<input type="submit" value="salvar" />
+					<input type="submit" value="sair" />
+					</tr>
+					<center>
+					<strong>E-mail</strong>:<input type="e-mail" id="e-mail" name="e-mail" value="" size="20" maxlength="15" />
+					<td><td><strong>Mensagem</strong>:<input type="e-mail" id="e-mail" name="e-mail" value="" size="20" cols="25" rows="5" ></textarea></td><td>
+					</center>
+					<div id="rodapé">
+					<br></br><br></br><br></br><br></br>
+				<p class="rodapé">Todos os direitos reservados ao site cadastro de produtos 2017
+					</div>
+
+
+	</body>
+		<footer>
+
+		</footer>
+</html>
